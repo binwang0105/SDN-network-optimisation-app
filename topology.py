@@ -48,7 +48,7 @@ for link_key in json_decoded.get('links'): # each key is a dict
     #link_key.setdefault('type', link_key.get('operationalStatus'))
     link_key.setdefault('cost', 1)
     # define a dict in json
-    link_key['Property'] = {'type':link_key.get('operationalStatus')}
+    link_key['properties'] = {'type':link_key.get('operationalStatus')}
     del link_key['name']
     del link_key['endZ']
     del link_key['topoObjectType']
