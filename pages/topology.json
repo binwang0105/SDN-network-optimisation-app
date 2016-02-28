@@ -1,0 +1,202 @@
+{
+    "protocol": "OSPF", 
+    "links": [
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0, 
+                "target to source": 0.068967284
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.100", 
+            "target": "10.210.10.106"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0.006893494, 
+                "target to source": 0.035727546
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.106", 
+            "target": "10.210.10.124"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0.03593542, 
+                "target to source": 0.055880488
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.106", 
+            "target": "10.210.10.112"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0, 
+                "target to source": 0.006529816
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.100", 
+            "target": "10.210.10.113"
+        }, 
+        {
+            "properties": {
+                "type": "Down", 
+                "source to target": 0.0, 
+                "target to source": 0.01958704
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.113", 
+            "target": "10.210.10.114"
+        }, 
+        {
+            "properties": {
+                "type": "Down", 
+                "source to target": 0.073564427, 
+                "target to source": 0.0
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.114", 
+            "target": "10.210.10.115"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0.043021132, 
+                "target to source": 2.6e-07
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.112", 
+            "target": "10.210.10.115"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 51643264, 
+                "target to source": 0.0
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.115", 
+            "target": "10.210.10.118"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0.025735583, 
+                "target to source": 0.039219635
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.118", 
+            "target": "10.210.10.124"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0.042232929, 
+                "target to source": 0.00708439
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.106", 
+            "target": "10.210.10.113"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0.02611899, 
+                "target to source": 0.080789144
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.112", 
+            "target": "10.210.10.118"
+        }, 
+        {
+            "properties": {
+                "type": "Down", 
+                "source to target": 0.0, 
+                "target to source": 9.56e-07
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.106", 
+            "target": "10.210.10.114"
+        }, 
+        {
+            "properties": {
+                "type": "Down", 
+                "source to target": 0.0, 
+                "target to source": 0.0
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.112", 
+            "target": "10.210.10.114"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 7.54e-07, 
+                "target to source": 0.006450108
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.112", 
+            "target": "10.210.10.124"
+        }, 
+        {
+            "properties": {
+                "type": "Up", 
+                "source to target": 0, 
+                "target to source": 0.061526168
+            }, 
+            "cost": 1, 
+            "source": "10.210.10.100", 
+            "target": "10.210.10.124"
+        }
+    ], 
+    "label": "NorthStar Visualizer", 
+    "version": "1.0.0.0 by Team1", 
+    "topologyIndex": 1, 
+    "nodes": [
+        {
+            "hostname": 1, 
+            "label": "SF", 
+            "id": "10.210.10.100"
+        }, 
+        {
+            "hostname": 1, 
+            "label": "DALLAS", 
+            "id": "10.210.10.106"
+        }, 
+        {
+            "hostname": 1, 
+            "label": "MIAMI", 
+            "id": "10.210.10.112"
+        }, 
+        {
+            "hostname": 1, 
+            "label": "LA", 
+            "id": "10.210.10.113"
+        }, 
+        {
+            "hostname": 1, 
+            "label": "HOUSTON", 
+            "id": "10.210.10.114"
+        }, 
+        {
+            "hostname": 1, 
+            "label": "TAMPA", 
+            "id": "10.210.10.115"
+        }, 
+        {
+            "hostname": 1, 
+            "label": "NY", 
+            "id": "10.210.10.118"
+        }, 
+        {
+            "hostname": 1, 
+            "label": "CHICAGO", 
+            "id": "10.210.10.124"
+        }
+    ], 
+    "topoObjectType": "topology", 
+    "type": "Network Topology"
+}
